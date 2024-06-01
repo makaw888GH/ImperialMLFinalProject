@@ -66,7 +66,7 @@ The hyperparameters selected for tuning are the following:
 
 ## RESULTS
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+The results shows each of the hyperparameters selected and optimal value.
 
 ![alt_text](https://github.com/makaw888GH/ImperialMLFinalProject/blob/main/PostTuningResults.png?raw=true)
 
