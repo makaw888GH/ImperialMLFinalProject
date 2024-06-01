@@ -1,5 +1,4 @@
-# PROJECT TITLE 
-
+# Customer Credit Scorecard
 
 ## NON-TECHNICAL EXPLANATION OF YOUR PROJECT
 Apply machine learning to build a system which score customers for credit worthiness and and decide which customers is eligible for new offers. The ML scoring system must provide rationale to support the scoring output and enhance explainability.
