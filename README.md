@@ -42,7 +42,14 @@ Any publications based on this dataset should acknowledge the following:
 <br>A summary of the data you’re using, remembering to include where you got it and any relevant citations. 
 
 ## MODEL 
-A summary of the model you’re using and why you chose it. 
+The model selected is Logistic Regression (LR)
+
+LR most used algorithm in the credit scorecard modeling process is Logistic Regression. The reasons are as follows:
+
+* Simple linear relationship: the relationship between variables is a linear relationship
+* Good Interpretability: the effect of input variables on target variables is readily available
+* Give probabilities instead of discriminative classes: the customer’s characteristic information (such as marriage, age, historical credit performance, etc.) can be integrated and converted into a probability value, which provides an intuitive basis to predict whether the customer is good or bad. That is, the larger the value, the smaller the probability that the customer will default in the future.
+* Easy to deploy: testing, deployment, monitoring, tuning, etc., are relatively simple
 
 ## HYPERPARAMETER OPTIMSATION
 Description of which hyperparameters you have and how you chose to optimise them. 
