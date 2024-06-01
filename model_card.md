@@ -16,11 +16,22 @@ See the [example Google model cards](https://modelcards.withgoogle.com/model-rep
 
 ## Performance
 
-Give a summary graph or metrics of how the model performs. Remember to include how you are measuring the performance and what data you analysed it on. 
+Optimisation output and AUC graph shows each of the hyperparameters selected, optimal value and resulting model performance
+
+![alt_text](https://github.com/makaw888GH/ImperialMLFinalProject/blob/main/PostTuningResults.png?raw=true)
+
+Feature Inportance to provide model explainability
+
+![alt_text](https://github.com/makaw888GH/ImperialMLFinalProject/blob/main/featureImportance.png?raw=true)
 
 ## Limitations
 
-Outline the limitations of your model.
+### Multicollinearity:
+* Logistic regression requires moderate or no multicollinearity between independent variables. High correlation between predictors can lead to unstable model estimates. This issue has been mitigated by removing features which exceed correlation threshold
+### Outperformed by More Complex Algorithms:
+* While logistic regression is useful for simple datasets, more powerful algorithms like neural networks can often outperform it.
+### Regularization for Overfitting:
+In high-dimensional datasets, logistic regression may overfit. Regularization techniques (such as L1 or L2 regularization) can help mitigate this issue.
 
 ## Trade-offs
 
