@@ -44,7 +44,9 @@ Any publications based on this dataset should acknowledge the following:
 ## MODEL 
 The model selected is Logistic Regression (LR)
 
-LR is the most used algorithm in the credit scorecard modeling process is Logistic Regression. The reasons are as follows:
+For this project based on time available (1 week) LR is the most used algorithm in the credit scorecard modeling process is Logistic Regression. Other algorithms which are suitable for later implementation include ensemble techniques, AdaBoostClassifier, GradientBoostingClassifier, RandomForestClassifier, ExtraTreesClassifier
+
+Other reasons include :
 
 * Simple linear relationship: the relationship between variables is a linear relationship
 * Good Interpretability: the effect of input variables on target variables is readily available
