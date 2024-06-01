@@ -68,6 +68,8 @@ The hyperparameters selected for tuning are the following:
 
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
+![alt_text](https://github.com/makaw888GH/ImperialMLFinalProject/blob/main/PostTuningResults.png?raw=true)
+
 A summary of your results and what you can learn from your model 
 
 You can include images of plots using the code below:
