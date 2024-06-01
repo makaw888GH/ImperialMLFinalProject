@@ -54,7 +54,15 @@ Other reasons include :
 * Easy to deploy: testing, deployment, monitoring, tuning, etc., are relatively simple
 
 ## HYPERPARAMETER OPTIMSATION
-Description of which hyperparameters you have and how you chose to optimise them. 
+
+The list of hyperparameters that can be tuned can be found in the scikit learn documentation: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+
+The hyperparameters selected for tuning are the following:
+
+* C: Inverse of regularization strength; must be a positive float. Like in support vector machines, smaller values specify stronger regularization
+* penalty: {‘l1’, ‘l2’, ‘elasticnet’, None}, default=’l2’ Specify the norm of the penalty
+* solver: Algorithm to use in the optimization problem. Default is ‘lbfgs’
+* max_iterint, default=100 Maximum number of iterations taken for the solvers to converge
 
 ## RESULTS
 A summary of your results and what you can learn from your model 
