@@ -65,6 +65,9 @@ The hyperparameters selected for tuning are the following:
 * max_iterint, default=100 Maximum number of iterations taken for the solvers to converge
 
 ## RESULTS
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
 A summary of your results and what you can learn from your model 
 
 You can include images of plots using the code below:
