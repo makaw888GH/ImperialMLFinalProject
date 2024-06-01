@@ -66,9 +66,14 @@ The hyperparameters selected for tuning are the following:
 
 ## RESULTS
 
-The results shows each of the hyperparameters selected and optimal value.
+Optimisation Putput and AUC graph shows each of the hyperparameters selected, optimal value and resulting model performance
 
 ![alt_text](https://github.com/makaw888GH/ImperialMLFinalProject/blob/main/PostTuningResults.png?raw=true)
+
+Feature Inportance to provide model explainability
+
+![alt_text](https://github.com/makaw888GH/ImperialMLFinalProject/blob/main/featureImportance.png?raw=true)
+
 
 ## (OPTIONAL: CONTACT DETAILS)
 If you are planning on making your github repo public you may wish to include some contact information such as a link to your twitter or an email address. 
