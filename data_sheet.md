@@ -16,10 +16,13 @@ This dataset was originally created for reserach into machine learning methods a
 
 ## Composition
 
-- What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)? 
-- How many instances of each type are there? 
+- What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)?
+Each record instance represent a client record, some demographic details, account balance, repayment history and statement amount
+- How many instances of each type are there?
 - Is there any missing data?
+No
 - Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by    doctor–patient confidentiality, data that includes the content of individuals’ non-public communications)?
+No PII or SPII included in the data
 
 ## Collection process
 
