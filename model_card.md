@@ -35,4 +35,4 @@ In high-dimensional datasets, logistic regression may overfit. Regularization te
 
 ## Trade-offs
 
-Outline any trade-offs of your model, such as any circumstances where the model exhibits performance issues. 
+A loss function could be introduced to optimise False Positive and False Negative, dependent on risk appetite of the business.
