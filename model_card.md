@@ -8,7 +8,7 @@ See the [example Google model cards](https://modelcards.withgoogle.com/model-rep
 * 21 features and 1 label were used as input for model training and testing
 
 **Output:** Describe the output(s) of your model
-* The primary output of the model is the probability of credit card payment default
+* The primary output of the model is to predict the probability of credit card payment default
 * Other output of the model as part of the exploratory data analysis includes: Information Value, Population Stability Index (Data Drift analysis), Weight of Evidence, and Feature Importance
 
 **Model Architecture:** Describe the model architecture you’ve used
