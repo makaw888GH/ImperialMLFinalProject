@@ -16,50 +16,52 @@ This dataset was originally created for research into machine learning methods a
 
 ## Composition
 
-- What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)?
+### What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)?
 <br>Each record instance represent a client record, some demographic details, account balance, repayment history and statement amount
-- How many instances of each type are there?
+### How many instances of each type are there?
 <br> the dataset is not separated into distinct groups or different types. It is believed to represent a population of credit card customers that have either defaulted payments or not
-- Is there any missing data?
+### Is there any missing data?
 <br>No
-- Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by    doctor–patient confidentiality, data that includes the content of individuals’ non-public communications)?
+### Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by    doctor–patient confidentiality, data that includes the content of individuals’ non-public communications)?
 <br>No PII or SPII included in the data
 
 ## Collection process
 
-- How was the data acquired?
+### How was the data acquired?
 <br>The dataset was based on a study in Taiwan which took payment data in October, 2005, from an important bank (a cash and credit card issuer) and the targets were credit card holders of the bank. Among the total 25,000 observations, 5529 observations (22.12%) are the cardholders with default payment. This research employed a binary variable – default payment (Yes = 1, No = 0), as the response variable
-- If the data is a sample of a larger subset, what was the sampling strategy?
+### If the data is a sample of a larger subset, what was the sampling strategy?
 <br>The entire 25,000 observations were used
-- Over what time frame was the data collected?
+### Over what time frame was the data collected?
 <br> October 2005
 
 ## Preprocessing/cleaning/labelling
 
-- Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section.
+### Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section.
 <br>A series of preprocessing steps were performed on the data prior to model training and testing including:
 * Splitting of dataset into 70/30 train / test
 * Removal of features due to missing values, correlation or information value exceed threhold
-- Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?
+### Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?
 * No
  
 ## Uses
 
-- What other tasks could the dataset be used for?
+### What other tasks could the dataset be used for?
 * How does the probability of default payment vary by categories of different demographic variables?
 * Which variables are the strongest predictors of default payment?
-- Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other risks or harms (e.g., legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms?
+### Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other risks or harms (e.g., legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms?
 * Being awrare of the payment conditions and penalties agreements the bank used, as well as any abnormal economic or soietal situations in Taiwan at the time of collection
-- Are there tasks for which the dataset should not be used? If so, please provide a description.
+### Are there tasks for which the dataset should not be used? If so, please provide a description.
 * Non banking use cases
 
 ## Distribution
 
-- How has the dataset already been distributed?
-* The data is published Via 
-- Is it subject to any copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?  
+### How has the dataset already been distributed?
+* The data is published in Kaggle
+### Is it subject to any copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?
+* This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license. This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.
 
 ## Maintenance
 
-- Who maintains the dataset?
+### Who maintains the dataset?
+* Not Known
 
