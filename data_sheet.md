@@ -27,9 +27,12 @@ This dataset was originally created for research into machine learning methods a
 
 ## Collection process
 
-- How was the data acquired? 
-- If the data is a sample of a larger subset, what was the sampling strategy? 
+- How was the data acquired?
+<br>The dataset was based on a study in Taiwan which took payment data in October, 2005, from an important bank (a cash and credit card issuer) and the targets were credit card holders of the bank. Among the total 25,000 observations, 5529 observations (22.12%) are the cardholders with default payment. This research employed a binary variable – default payment (Yes = 1, No = 0), as the response variable
+- If the data is a sample of a larger subset, what was the sampling strategy?
+<br>The entire 25,000 observations were used
 - Over what time frame was the data collected?
+<br> October 2005
 
 ## Preprocessing/cleaning/labelling
 
