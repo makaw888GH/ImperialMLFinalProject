@@ -13,6 +13,7 @@ See the [example Google model cards](https://modelcards.withgoogle.com/model-rep
 
 **Model Architecture:** Describe the model architecture you’ve used
 * Logistic Regression Model architecture
+* Bayesian Optimisation BayesSearchCV used for hyperparameter optimisation
 
 ## Performance
 
