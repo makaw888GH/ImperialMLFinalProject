@@ -36,18 +36,27 @@ This dataset was originally created for research into machine learning methods a
 
 ## Preprocessing/cleaning/labelling
 
-- Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section. 
-- Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)? 
+- Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section.
+<br>A series of preprocessing steps were performed on the data prior to model training and testing including:
+* Splitting of dataset into 70/30 train / test
+* Removal of features due to missing values, correlation or information value exceed threhold
+- Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?
+* No
  
 ## Uses
 
-- What other tasks could the dataset be used for? 
-- Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other risks or harms (e.g., legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms? 
+- What other tasks could the dataset be used for?
+* How does the probability of default payment vary by categories of different demographic variables?
+* Which variables are the strongest predictors of default payment?
+- Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other risks or harms (e.g., legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms?
+* Being awrare of the payment conditions and penalties agreements the bank used, as well as any abnormal economic or soietal situations in Taiwan at the time of collection
 - Are there tasks for which the dataset should not be used? If so, please provide a description.
+* Non banking use cases
 
 ## Distribution
 
-- How has the dataset already been distributed? 
+- How has the dataset already been distributed?
+* The data is published Via 
 - Is it subject to any copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?  
 
 ## Maintenance
