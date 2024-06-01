@@ -5,6 +5,7 @@ Apply machine learning to build a system which score customers for credit worthi
 
 ## DATA
 The dataset is from Kaggle titled Default of Credit Card Clients Dataset. https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset
+
 <br>This dataset contains information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients in Taiwan from April 2005 to September 2005.
 
 There are 25 variables:
